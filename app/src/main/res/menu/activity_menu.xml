@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="图标排序"
+        app:showAsAction="never"
+        android:id="@+id/one_menu"/>
+
+    <item android:title="隐藏程序"
+        app:showAsAction="never"
+        android:id="@+id/two_menu"/>
+    <item android:title="智能分类"
+        app:showAsAction="never"
+        android:id="@+id/three_menu"/>
+    <item android:title="新建文件夹"
+        app:showAsAction="never"
+        android:id="@+id/create_file"/>
+    <item android:title="应用列表设置"
+        app:showAsAction="never"
+        android:id="@+id/settings"/>
+</menu>

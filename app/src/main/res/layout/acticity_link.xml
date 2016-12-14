@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#7b68ee">
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:id="@+id/link_return"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_return"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NewsDay"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+        <WebView
+            android:id="@+id/myWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+        <ImageView
+            android:id="@+id/myShouChang"
+            android:layout_width="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="60dp"
+            android:src="@drawable/ssdk_oks_classic_qzone"
+            android:layout_gravity="right"/>
+        <ImageView
+            android:id="@+id/share_link"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/share_select"
+            android:layout_alignParentRight="true"/>
+    </FrameLayout>
+
+
+</FrameLayout>

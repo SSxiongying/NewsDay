@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/save_toobar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/cornflowerblue">
+
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:id="@+id/lable_save"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_return"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NewsDay"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="34dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sc_recycler"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+</FrameLayout>

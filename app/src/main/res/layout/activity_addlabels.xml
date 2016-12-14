@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flowlayout="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEDEDE">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/myToolbars"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/cornflowerblue">
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:id="@+id/lable_images"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_return"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NewsDay"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="34dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前标签："
+        android:textSize="20sp"
+        android:background="#DEDEDE"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp"/>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/myTop_recycler"
+    android:padding="10dp"
+    android:layout_marginTop="120dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</android.support.v7.widget.RecyclerView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加兴趣标签"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="#DEDEDE"
+        android:textColor="#000000"
+        android:layout_marginTop="320dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myTagsRecycler"
+        android:layout_marginTop="380dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+    </FrameLayout>
